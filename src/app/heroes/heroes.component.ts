@@ -4,6 +4,7 @@ import { Component, OnInit } from '@angular/core';
 import { Hero } from '../hero';
 import { HeroService } from '../hero.service';
 import { Observable, of } from 'rxjs'; //Allow data to be fetched asynchrously
+import { HEROES } from '../mock-heroes';
 
 @Component({
   selector: 'app-heroes',
